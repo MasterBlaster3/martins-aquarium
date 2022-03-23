@@ -1,3 +1,4 @@
+// import { getFish, getMostHolyFish, getSoldierFish, getUnworthyFish } from "./fishes/fishData.js";
 import { getFish } from './fish/FishData.js'
 import { FishList } from './fish/FishList.js'
 import { tipList } from './tips/TipList.js'

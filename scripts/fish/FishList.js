@@ -5,6 +5,7 @@
 // TODO: Import `getFish` from the data module
 import { getFish } from "./FishData.js";
 import { Fish } from "./Fish.js";
+import { getMostHolyFish, getSoldierFish, getUnworthyFish } from "./holyFish.js";
 
 
 export const FishList = () => {
@@ -25,4 +26,5 @@ export const FishList = () => {
         ${fishHTMLRepresentation}
     `
 }
+
 
